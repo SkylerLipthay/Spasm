@@ -106,4 +106,8 @@
   })];
 }
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)application {
+  return YES;
+}
+
 @end
